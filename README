@@ -1,9 +1,6 @@
 # RubberDuino
-apt-get update -y
-cd /ArduinoIDE
-chmod +x install.sh
-./install.sh
-----------------------------------------------------------
+
+Primeiramente devemos garantir que temos a IDE do arduino instalada depois disso podemos iniciar
 
 apt-get install libusb-1.0-0 libusb-1.0-0-dev autoconf -y
 git clone https://github.com/dfu-programmer/dfu-programmer
@@ -12,9 +9,7 @@ cd dfu-programmer/
 ./configure
 make
 make install
-----------------------------------------------------------
 
-cd ~/RubberDuino/ArduinoUNO_HID/
-./script.sh
+depois destes passos basta executar o script.sh e seguir seus passos, o arquivo rubberduino.ino tem um exemplo do que enviar para a placa para simularmos um rubberduck 
 
------------------------------------------------------------
+
